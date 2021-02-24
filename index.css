@@ -1,0 +1,25 @@
+#shop_assis span{
+    font-size: 20px;
+}
+
+#shop_assis{
+    cursor: pointer;
+    background: red;
+}
+
+.drop-down-items{
+    position: relative;
+    display: inline-block;
+}
+
+#span-title{
+    font-size: 18px;
+}
+
+#span-up{
+    display: none;
+}
+
+#shop_assis.active{
+    height: 325px;
+}

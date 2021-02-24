@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<!--<div class="container">-->
+<!--    <h1>Form Container</h1>-->
+<!--    <form>-->
+<!--        <input id="item" type="text" placeholder="New" required />-->
+<!--    </form>-->
+<!--    <h2>Items</h2>-->
+<!--    <ul></ul>-->
+<!--    <button>Clear All</button>-->
+<!--</div>-->
+
+<div id="inputs">
+    <input class="radio-class" type="radio" value="1" name="animal"><label>Dog</label>
+    <input class="radio-class" type="radio" value="2" name="animal"><label>Cat</label>
+</div>
+<button onclick="clear()">Clear checked</button>
+<script>
+
+
+    // const form = document.querySelector('form')
+    // const ul = document.querySelector('ul')
+    // const button = document.querySelector('button')
+    // const input = document.getElementById('item')
+    // let itemsArray = localStorage.getItem('items') ? JSON.parse(localStorage.getItem('items')) : []
+    // localStorage.setItem('items', JSON.stringify(itemsArray))
+    // const data = JSON.parse(localStorage.getItem('items'))
+    // const liMaker = text => {
+    //     const li = document.createElement('li')
+    //     li.textContent = text
+    //     ul.appendChild(li)
+    // }
+    // form.addEventListener('submit', function(e) {
+    //     e.preventDefault()
+    //     itemsArray.push(input.value)
+    //     localStorage.setItem('items', JSON.stringify(itemsArray))
+    //     liMaker(input.value)
+    //     input.value = ''
+    // })
+    // data.forEach(item => {
+    //     liMaker(item)
+    // })
+    // button.addEventListener('click', function() {
+    //     localStorage.clear()
+    //     while (ul.firstChild) {
+    //         ul.removeChild(ul.firstChild)
+    //     }
+    // })
+</script>
+</body>
+</html>
